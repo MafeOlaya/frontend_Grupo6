@@ -1,16 +1,40 @@
-@media screen and (min-width:1501px){    
-*{
-    font-family: Verdana;
-}
 #contenido{
-    text-align: center;
-    width: 90%;
-    height: 86%;
-    background: rgb(142, 174, 204);
-}
+    height: 15%;/*lineas*/
+        background-color: #888DA7;
+        padding:0.5em;
+        font-size: x-large;
+    }
+    p{
+        color: #d47e1b;
+        font-size: small;
+        text-align:center;
+    }
+    b{
+        color: #020608;
+        font-size: small;
+    }
+    legend{
+        color: #184E77;
+        font-size: x-large;
+    }
+    
+    aside{
+        height: 20vh;
+        width: 85%;
+        float:right;
+        text-align:initial;
+    }
+    
+    img{
+        width: 140px;
+        height: 140px;
+        border-radius: 1em;
+        padding: 0.1em;
+    }
+    
 header{
     background-image: url("css/logo");
-    background-position: center;
+    background-position: left;
     text-align: center;
     height: 36%;
     background-color: rgb(144, 145, 146);
@@ -19,7 +43,13 @@ header{
     margin: 0.5em;
     font-size: x-large;
 }
-
+#contenedor{
+    width: 80%;/*de la pagina*/
+    background-color: #979c9a;
+    height: 20%;/*lineas*/
+    text-align: center;
+    font-family: Verdana;
+}
 nav{
     text-align: center;
     height: 20%;
@@ -30,187 +60,37 @@ nav{
     font-size: xx-small;
     orientation: vertical;
 }
+
 .button1, .button2 {
     color: black;
+    background-color: whitesmoke;
     text-align: center;
     padding: 4px;
     border-radius: 5px;
     cursor: pointer;
+    font-size: small;
 }
-.button1{
-    background-color: rgb(236, 150, 225);
-}
-.button2{
-    background-color: rgb(143, 241, 195);
-}
+
 .button1:hover {
-    background-color: rgb(211, 115, 77);
-    transition-duration: 0.3s;
+    background-color: cadetblue;
 }
 .button2:hover {
-    background-color: rgb(211, 115, 77);
-    transition-duration: 0.3s;
+    background-color: cadetblue;
 }
 .button1:active {
-    background-color: rgb(154, 84, 201);
+    background-color: cornflowerblue;
     transition-duration: 0.3s;
 }
 .button2:active {
-    background-color: rgb(154, 84, 201);
+    background-color: cornflowerblue;
     transition-duration: 0.3s;
 }
 footer{
     text-align: center;
-    height: 20%;
-    background-color: rgb(236, 226, 134);
+    height: 20vh;
+    background-color: rgb(223, 219, 186);
     border-radius: 1em;
     padding: 0.5em;
     margin: 0.5em;
     font-size: xx-small;
-}
-}
-
-@media screen and (max-width:1500px){    
-    *{
-        font-family: Verdana;
-    }
-    #contenido{
-        text-align: center;
-        width: 90%;
-        height: 86%;
-        background: rgb(142, 174, 204);
-    }
-    header{
-        background-image: url("css/logo");
-        background-position: center;
-        text-align: center;
-        height: 36%;
-        background-color: rgb(144, 145, 146);
-        border-radius: 1em;
-        padding: 0.5em;
-        margin: 0.5em;
-        font-size: x-large;
-    }
-     
-    nav{
-        text-align: center;
-        height: 20%;
-        background-color: rgb(222, 228, 233);
-        border-radius: 1em;
-        padding: 0.5em;
-        margin: 0.5em;
-        font-size: xx-small;
-        orientation: vertical;
-    }
-    .button1, .button2 {
-        color: black;
-        text-align: center;
-        padding: 4px;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-    .button1{
-        background-color: rgb(236, 150, 225);
-    }
-    .button2{
-        background-color: rgb(143, 241, 195);
-    }
-    .button1:hover {
-        background-color: rgb(211, 115, 77);
-        transition-duration: 0.3s;
-    }
-    .button2:hover {
-        background-color: rgb(211, 115, 77);
-        transition-duration: 0.3s;
-    }
-    .button1:active {
-        background-color: rgb(154, 84, 201);
-        transition-duration: 0.3s;
-    }
-    .button2:active {
-        background-color: rgb(154, 84, 201);
-        transition-duration: 0.3s;
-    }
-    footer{
-        text-align: center;
-        height: 20%;
-        background-color: rgb(236, 226, 134);
-        border-radius: 1em;
-        padding: 0.5em;
-        margin: 0.5em;
-        font-size: xx-small;
-    }
-}
-
-
-@media screen and (max-width:400px){    
-    *{
-        font-family: Verdana;
-    }
-    #contenido{
-        text-align: center;
-        width: 90%;
-        height: 86%;
-        background: rgb(142, 174, 204);
-    }
-    header{
-        background-image: url("css/logo");
-        background-position: center;
-        text-align: center;
-        height: 36%;
-        background-color: rgb(144, 145, 146);
-        border-radius: 1em;
-        padding: 0.5em;
-        margin: 0.5em;
-        font-size: x-large;
-    }
-    
-    nav{
-        text-align: center;
-        height: 20%;
-        background-color: rgb(222, 228, 233);
-        border-radius: 1em;
-        padding: 0.5em;
-        margin: 0.5em;
-        font-size: xx-small;
-        orientation: vertical;
-    }
-    .button1, .button2 {
-        color: black;
-        text-align: center;
-        padding: 4px;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-    .button1{
-        background-color: rgb(236, 150, 225);
-    }
-    .button2{
-        background-color: rgb(143, 241, 195);
-    }
-    .button1:hover {
-        background-color: rgb(211, 115, 77);
-        transition-duration: 0.3s;
-    }
-    .button2:hover {
-        background-color: rgb(211, 115, 77);
-        transition-duration: 0.3s;
-    }
-    .button1:active {
-        background-color: rgb(154, 84, 201);
-        transition-duration: 0.3s;
-    }
-    .button2:active {
-        background-color: rgb(154, 84, 201);
-        transition-duration: 0.3s;
-    }
-    footer{
-        text-align: center;
-        height: 20%;
-        background-color: rgb(236, 226, 134);
-        border-radius: 1em;
-        padding: 0.5em;
-        margin: 0.5em;
-        font-size: xx-small;
-    }
 }
